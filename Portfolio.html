@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+        header{
+            background-color: rgb(204, 68, 204);
+            columns: white;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav li{
+            margin: 0 15px;
+        }
+        nav a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .banner{
+            position: relative;
+            text-align: center;
+        }
+
+        .banner img{
+            width: 100%;
+            height: auto;
+        }
+        .banner .content{
+            position:absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0);
+            padding: 20px;
+            color: #fff;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .cards{
+            display: flex;
+            justify-content: space-around;
+            flex: 1;
+        }
+        .card{
+            
+            padding: 20px;
+            height: 250px;
+            width: 350px;
+            margin: 10px;
+            background-size:cover;
+
+        }
+        /*https://img.freepik.com/premium-photo/top-view-mini-airplane-with-piece-paper-with-word-quottravelquot_63762-9137.jpg*/
+        .card1{
+            background-image: url('https://media.istockphoto.com/id/1289812286/vector/plane-with-propeller-vector-emblem-stock-illustration-usa-cloud-sky-aerospace-cloudscape.jpg?s=612x612&w=0&k=20&c=rSBWzeVLYpEwdwxZdHGPJnz2aO8BelFaeic1mMrSUFk=');
+        }
+        .card2{
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJn6eAPYHBUk2xnAUKgAtYG_fjIrKYaZ8lw&usqp=CAU');
+        }
+        .card3{
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8BjgzKZoxG7iJHm2eEBFtBphGeuVA2dYx8A&usqp=CAU');
+        }
+        .content{
+            flex:1;
+            padding: 20px;
+        }
+        footer{
+            background-color: rgb(21, 21, 26);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul style="font-weight: bold;font-size:18px;">
+                <li><a href="Portfolio.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="portfolios.html">Portfolio</a></li>
+                <li><a href="features.html">Features</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="banner.jpg" alt="Home Banner">
+        <div class="content">
+            <h1>Welcome to our Website</h1>
+            <p>We Give The Best Flying Experience</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="cards" style="margin-top: 50px;">
+            <div class="card card1"></div>
+            <div class="card card2"></div>
+            <div class="card card3"></div>
+        </div>
+    </div>
+    <div class="cards" style="margin-top: 35px;">
+        <div style="height: 550px;width: 550px;" >
+            <h1 style="color: brown;font-size: 25px;font-weight: 700;">Airplanes</h1>
+        <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">An airplane (American English), or aeroplane (Commonwealth English), informally plane, is a fixed-wing aircraft that is propelled forward by thrust from a jet engine, propeller, or rocket engine. Airplanes come in a variety of sizes, shapes, and wing configurations. The broad spectrum of uses for airplanes includes recreation, transportation of goods and people, military, and research. Worldwide, commercial aviation transports more than four billion passengers annually on airliners[1] and transports more than 200 billion tonne-kilometers[2] of cargo annually, which is less than 1% of the world's cargo movement.[3] Most airplanes are flown by a pilot on board the aircraft, but some are designed to be remotely or computer-controlled such as drones.</p>
+    </div>
+        
+       <div style="height:550px;width:550px;">
+            <img style="height:300px;width:450px;margin-top: 20px;" src="left-img.jpg" alt="Right Image">
+        </div>
+        </div>
+    
+    <footer >
+        <div style="display: flex;justify-content: space-around;">
+        <div style="display: flex;flex-direction: column;">
+            <p style=" font-size: 18px;margin-right:15px;" >About Us</p>
+        <p style="font-size: 13px;margin-right: 15px;" >Careers</p>
+        <p style=" font-size: 13px;margin-right: 15px;" >MediaCenter</p>
+        <p style=" font-size: 13px;margin-right: 15px;" >activities</p>
+        </div>
+        <div style="display: flex;flex-direction: column;">
+            <p style=" font-size: 20px;margin-right:15px;" >Contact Us</p>
+        <p style="font-size: 13px;margin-right: 15px;" >9898978786</p>
+        <p style=" font-size: 13px;margin-right: 15px;" >1800-2400-26</p>
+        <p style=" font-size: 13px;margin-right: 15px;" >24/7 Online</p>
+        </div>
+        <div style="display: flex;flex-direction: column;">
+            <p style=" font-size: 20px;margin-right:15px;" >Book </p>
+        <p style="font-size: 13px;margin-right: 15px;" >5277577576</p>
+        <p style=" font-size: 13px;margin-right: 15px;" >1800-2400-26</p>
+        <p style=" font-size: 13px;margin-right: 15px;" >24/7 Online</p>
+        </div>
+        <div style="display: flex;flex-direction: column;">
+            <p style=" font-size: 20px;margin-right:15px;" >Manage</p>
+        <p style="font-size: 13px;margin-right: 15px;" >6727882527</p>
+        <p style=" font-size: 13px;margin-right: 15px;" >1800-2400-26</p>
+        <p style=" font-size: 13px;margin-right: 15px;" >24/7 Online</p>
+        </div>
+    </div>
+    <p>&copy; 2023 My Website. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
